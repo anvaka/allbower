@@ -1,0 +1,22 @@
+{
+  "name": "allbower",
+  "version": "1.0.0",
+  "description": "Bower dependency graph crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bower",
+    "dependency",
+    "graph",
+    "crawler",
+    "indexer"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/allbower"
+  }
+}
