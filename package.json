@@ -18,5 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/allbower"
+  },
+  "dependencies": {
+    "crawler": "^0.4.3",
+    "request-promise": "^0.4.2"
   }
 }

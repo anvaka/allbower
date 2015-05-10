@@ -7,6 +7,7 @@ lib-cov
 *.pid
 *.gz
 
+bower_*.json
 pids
 logs
 results
