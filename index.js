@@ -7,6 +7,7 @@ var getAllPackages = require('./lib/getAllPackages');
 var outFile = 'bower_files.json';
 
 var results = [];
+console.log('Downloading packages list...');
 getAllPackages().then(crawlDependencies);
 
 function crawlDependencies(index) {

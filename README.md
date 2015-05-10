@@ -1,6 +1,7 @@
 # allbower
 
-Bower dependency graph crawler
+Bower dependency graph crawler. This indexer is somewhat strict, and if your
+bower.json is not a valid json it will not let it through.
 
 # install
 
