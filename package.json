@@ -23,6 +23,8 @@
     "crawler": "^0.4.3",
     "ngraph.forcelayout3d": "0.0.12",
     "ngraph.graph": "0.0.11",
+    "ngraph.offline.layout": "^1.0.0",
+    "ngraph.tobinary": "^1.0.1",
     "request-promise": "^0.4.2"
   }
 }
