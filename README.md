@@ -5,11 +5,18 @@ bower.json is not a valid json it will not let it through.
 
 # install
 
-With [npm](https://npmjs.org) do:
+This simple steps will produce local version of the bower graph:
 
 ```
-npm install allbower
+git clone https://github.com/anvaka/allbower
+cd allbower
+npm install
+node index.js
+node layout.js
+node toBinary.js
 ```
+
+The ouptut is stored to `./data` folder, and can be consumed by [pm visualization](https://github.com/anvaka/pm)
 
 # license
 
