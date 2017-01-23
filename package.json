@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "crawler": "^0.4.3",
+    "glob": "^7.1.1",
     "ngraph.graph": "0.0.11",
     "ngraph.offline.layout": "^1.0.0",
     "ngraph.tobinary": "^1.0.1",

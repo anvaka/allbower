@@ -34,7 +34,7 @@ function crawlDependencies(index) {
       queueChunk();
     }
 
-    if (res.body === 'Not Found') {
+    if (res.statusCode === 404) {
       console.log('Not found: ' + res.uri);
       return;
     }
@@ -42,7 +42,7 @@ function crawlDependencies(index) {
       var body = JSON.parse(res.body);
       results.push(body);
     } catch (e) {
-      console.log('IGNORING: Failed to parse response body: ' + res.body);
+      console.log('IGNORING: Failed to parse response body: ' + res.body + '; Url: ' + res.uri);
       console.log(e);
     }
   }
